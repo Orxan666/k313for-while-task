@@ -23,8 +23,6 @@
 //   let element = myArr[index];
 //   index++;
 
-
-
 //   if (element[0] === "p") {
 //     console.log(element);
 //   }
@@ -38,7 +36,7 @@
 // while(counter<101){
 //     total+=counter
 //     counter++
- 
+
 // }
 // console.log(total);
 
@@ -77,19 +75,100 @@
 
 // 6ci sual
 
-const sentence = "Men her gun Javascript oyrenirem";
+// const sentence = "Men her gun Javascript oyrenirem";
 
-let total = "";
+// let total = "";
 
-const saitler = "aıoueəiöü";
+// const saitler = "aıoueəiöü";
 
-let counter = 0;
+// let counter = 0;
 
-while (counter < sentence.length) {
-  const letter = sentence[counter];
-  if (!saitler.includes(letter)) {
-    total += letter;
-  }
-  counter++;
-}
-console.log(total);
+// while (counter < sentence.length) {
+//   const letter = sentence[counter];
+//   if (!saitler.includes(letter)) {
+//     total += letter;
+//   }
+//   counter++;
+// }
+// console.log(total);
+// For Tasklar
+// ----------------------
+
+// let myArr=['cup', 'plate', 'spoon', 'knife', 'fork']
+
+// for(let i of myArr){
+//   console.log(i);
+// }
+// --------------
+// let myArr = ["pomidor", "sogan", "yerkoku", "sarimsaq", "semeni"];
+
+// for (let i of myArr){
+
+//   if (i[0] === "s") {
+//     console.log(i);
+//   }
+
+// }
+// -------------
+// let total = 0;
+// for (let i = 0; i <= 100; i++) {
+//   total += i;
+// }
+// console.log(total);
+// --------------
+
+// const myArr = [
+//   "kitab",
+//   "defter",
+//   "qelem",
+//   "karandas",
+//   "jurnal",
+//   "pozan",
+//   "vereq",
+// ];
+// for (let i of myArr) {
+//   if (i.length !== 5) {
+//     continue;
+//   }
+//   console.log(i[i.length-1]);
+// }
+// -----------------------------
+
+// const sentence = "Men her gun Javascript oyrenirem";
+
+// let total = "";
+
+// const saitler = "aıoueəiöü";
+
+// for (let char of sentence) {
+//   if (!saitler.includes(char)) {
+//     total += char;
+//   }
+
+// }
+
+// console.log(total);
+// ---------------------
+
+// for (let index = 100000; index > 0; index--) {
+//   if (index % 9999 === 0) {
+//     console.log(index);
+//     break;
+//   }
+// }
+// ---------------
+// const computer = {
+//   cpu: 'intel i5',
+//   ram: '8',
+//   gpu: 'NVIDIA',
+// }
+// console.log(Object.keys(computer));
+// console.log(Object.values(computer));
+// ----------------------
+// const letterList = ['a', 'a', 'b', 'a', 'c', 'b', 'b', 'e']
+// const letterCount = {a: 0, b: 0, c: 0, e: 0}
+
+// for(let el of letterList ){
+//   letterCount[el]++
+// }
+// console.log(letterCount);
